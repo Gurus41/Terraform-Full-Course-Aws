@@ -133,6 +133,12 @@ To verify that S3 native state locking is working:
 # Initialize with new backend configuration
 terraform init
 
+# Plan changes
+terraform plan
+
+# Apply changes auto approvel
+terraform apply --auto-approve
+
 # Terraform will prompt to migrate existing state
 # Answer 'yes' to copy existing state to new backend
 

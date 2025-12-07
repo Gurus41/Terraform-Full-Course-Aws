@@ -1,42 +1,29 @@
-# Configure the AWS Provider
 terraform {
+  backend "s3" {
+    bucket = "dev-tf-bucket-gurusai-terraform-state"
+    key    = "dev/terraform.tfstate"
+    region = "us-east-1"
+    encrypt = true
+    use_lockfile = true
+  }
   required_providers {
     aws = {
-      source = "hashicorp/aws"
+      source  = "hashicorp/aws"
       version = "~> 6.0"
     }
   }
-}
 
+}
+# Configure the AWS Provider
 provider "aws" {
-  # Configuration options
-    region = "ca-central-1"
+  region = "us-east-1"
 }
-
-# backend configuration
-terraform {
-  backend "s3" {
-    bucket         = "erraform-state-1754513244"
-    key            = "dev/terraform.tfstate"
-    region         = "ca-central-1"
-    use_lockfile  = "true"
-    encrypt        = true
-  }
-}
-
-
-# Simple test resource to verify remote backend
-resource "aws_s3_bucket" "test_backend" {
-  bucket = "test-remote-backend-${random_string.bucket_suffix.result}"
+# Create a S3 bucket
+resource "aws_s3_bucket" "dev_bucket" {
+  bucket = "dev-terraform-bucket-gurusai"
 
   tags = {
-    Name        = "Test Backend Bucket"
-    Environment = "dev"
+    Name        = "Dev Terraform Bucket"
+    Environment = "Dev"
   }
-}
-
-resource "random_string" "bucket_suffix" {
-  length  = 8
-  special = false
-  upper   = false
 }
