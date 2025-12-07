@@ -9,7 +9,7 @@
   - Include your own diagrams and code examples
   - Embed the video
 - [ ] Share your blog on LinkedIn and Twitter/X with **#30daysofawsterraform**
-- [ ] Tag me (Piyush Sachdeva)
+- [ ] Tag https://venkataguruswami.blogspot.com/2025/12/day-4-terraform-state-file-and-remote.html
 - [ ] Submit your work (by creating an issue using the provided template)
 
 ## Tips
