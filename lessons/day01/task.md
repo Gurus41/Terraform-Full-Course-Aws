@@ -9,7 +9,7 @@
 - [ ] Share your blog on LinkedIn and Twitter/X with **#30daysofawsterraform**
 - [ ] Tag me (Piyush Sachdeva)
 - [ ] Submit your work (see `submission.md` for how)
-- [ ] Tag me [Piyush Sachdeva](https://venkataguruswami.blogspot.com/2025/12/day-1-introduction-to-iac-and-step-by.html)
+- [ ] Tag https://venkataguruswami.blogspot.com/2025/12/day-1-introduction-to-iac-and-step-by.html
 
 ## Tips
 
