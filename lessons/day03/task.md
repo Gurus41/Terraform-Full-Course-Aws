@@ -8,7 +8,7 @@
   - Include your own diagrams and code examples
   - Embed the video in the blog
 - [ ] Share your blog on LinkedIn and Twitter/X with **#30daysofawsterraform**
-- [ ] Tag me [Piyush Sachdeva](https://www.linkedin.com/in/piyush-sachdeva/) and [The CloudOps Community](https://www.linkedin.com/company/thecloudopscomm/?viewAsMember=true)
+- [ ] Tag https://venkataguruswami.blogspot.com/2025/12/day-3-creating-s3-bucket-using-terraform.html
 - [ ] Submit your work (by creating an issue in this repo)
 
 ## Tips
